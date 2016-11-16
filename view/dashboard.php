@@ -63,6 +63,7 @@ function getAvaiableToken(){
 }
 
 function openOrdersReciver(response){
+	alert(response);
 	var jsonReponse=JSON.parse(response);	
 	
 	for(var i=0;i<jsonReponse.length;i++){

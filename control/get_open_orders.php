@@ -46,8 +46,12 @@ foreach ($activeTokens as $activeToken){
 	foreach($openOrders as $openOrder){
 		$item=$openOrder["item"];
 		$order=$openOrder["order"];
-		
-		$newItem=$itensAdded[$item->getIdItem()]["item"];
+
+        $newItem = NULL;
+        if (array_key_exists($item->getIdItem(), $itensAdded)) {
+            $newItem = $itensAdded[$item->getIdItem()]["item"];
+        }
+
 		if($newItem==NULL){
 		
 			$qtd=$orderItemDB->getCountItemOrder($token, $item->getIdItem());
@@ -101,5 +105,4 @@ for($i=0;$i<$countI-1;$i++){
 	
 }
 echo json_encode($jsonResponse);
-
 ?>
