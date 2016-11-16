@@ -1,0 +1,187 @@
+body#dashboard .cod-dash-top {
+  height: 113px !important; }
+body#dashboard .dash-header {
+  margin: 20px 0 5px 3px; }
+body#dashboard #dash-top {
+  position: relative;
+  height: 76px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  margin-top: -10px; }
+  body#dashboard #dash-top .title-area {
+    position: absolute;
+    bottom: 0; }
+    body#dashboard #dash-top .title-area .btn {
+      color: black;
+      margin: -15px 0 0 20px;
+      text-shadow: 0 0 0 transparent !important; }
+  body#dashboard #dash-top h1 {
+    display: inline; }
+body#dashboard .project_chart {
+  position: relative; }
+body#dashboard .loading {
+  padding-left: 20px; }
+body#dashboard .cod-org-logo {
+  top: 36px !important; }
+body#dashboard .org-logo {
+  height: 76px;
+  min-width: 287px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0; }
+  body#dashboard .org-logo h3, body#dashboard .org-logo p {
+    text-align: right;
+    margin: 0px;
+    color: #85c33a; }
+  body#dashboard .org-logo p {
+    margin-top: 35px;
+    font-size: 10px;
+    color: #999; }
+  body#dashboard .org-logo h3 {
+    line-height: 23px; }
+body#dashboard .org-title {
+  height: 38px;
+  top: 35px;
+  min-width: 287px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 38px; }
+  body#dashboard .org-title h3, body#dashboard .org-title p {
+    text-align: right;
+    margin: 0px;
+    color: #85c33a; }
+  body#dashboard .org-title h3 {
+    margin: -5px 0 0; }
+  body#dashboard .org-title p {
+    font-size: 10px;
+    color: #999; }
+body#dashboard .dashboard-bottom-area {
+  background-color: #e5e5e5;
+  border-radius: 4px;
+  padding: 10px 8px;
+  position: relative;
+  margin: 0 0 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset; }
+  body#dashboard .dashboard-bottom-area #dash-project-list .solo-collapse-close-arrow {
+    right: 12px;
+    top: 20px; }
+  body#dashboard .dashboard-bottom-area #dash-search-results {
+    margin: 0 0 10px 0 !important; }
+  body#dashboard .dashboard-bottom-area .dash-proj-actions {
+    height: 30px;
+    display: inline-block;
+    width: 100%;
+    background-color: #ccc;
+    padding: 0 0 2px;
+    box-shadow: 0 3px 6px -1px #666666;
+    margin: 0 0 3px; }
+    body#dashboard .dashboard-bottom-area .dash-proj-actions #project-view-switch {
+      display: inline-block;
+      float: right;
+      margin: 6px 0 0; }
+      body#dashboard .dashboard-bottom-area .dash-proj-actions #project-view-switch div {
+        margin: 0px !important; }
+      body#dashboard .dashboard-bottom-area .dash-proj-actions #project-view-switch #expand-view {
+        background-position: 9px 2px !important; }
+      body#dashboard .dashboard-bottom-area .dash-proj-actions #project-view-switch #list-view {
+        background-position: -326px -46px !important; }
+    body#dashboard .dashboard-bottom-area .dash-proj-actions .dropdown-toggle {
+      margin-top: 6px; }
+    body#dashboard .dashboard-bottom-area .dash-proj-actions .no-data {
+      color: #777 !important;
+      line-height: 30px; }
+    body#dashboard .dashboard-bottom-area .dash-proj-actions .check-uncheck {
+      vertical-align: top;
+      margin: 8px 0 0 10px; }
+    body#dashboard .dashboard-bottom-area .dash-proj-actions #project-list-edit {
+      display: inline-block; }
+    body#dashboard .dashboard-bottom-area .dash-proj-actions #project-list-sort {
+      float: right;
+      margin-right: 15px;
+      cursor: pointer; }
+      body#dashboard .dashboard-bottom-area .dash-proj-actions #project-list-sort a.dropdown-toggle {
+        width: 30px;
+        height: 15px; }
+  body#dashboard .dashboard-bottom-area #project-list-header, body#dashboard .dashboard-bottom-area #dashboard-stream-header {
+    background-color: #888 !important;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px 4px 0 0 !important;
+    display: block;
+    padding: 10px 20px !important;
+    margin: 0px !important;
+    color: #f5f5f5;
+    border: none; }
+    body#dashboard .dashboard-bottom-area #project-list-header h3, body#dashboard .dashboard-bottom-area #dashboard-stream-header h3 {
+      display: inline;
+      color: #f5f5f5; }
+  body#dashboard .dashboard-bottom-area #dash-activity-feed {
+    float: right !important; }
+  body#dashboard .dashboard-bottom-area #dash-activity-feed, body#dashboard .dashboard-bottom-area #dash-project-list {
+    background-color: #FFFFFF;
+    height: 546px;
+    overflow: hidden;
+    width: 48.5%;
+    padding: 0px !important;
+    float: left;
+    box-shadow: 0 3px 5px 0px #999999 inset;
+    border-radius: 4px;
+    border: none; }
+    body#dashboard .dashboard-bottom-area #dash-activity-feed .label, body#dashboard .dashboard-bottom-area #dash-project-list .label {
+      color: #fff !important; }
+    body#dashboard .dashboard-bottom-area #dash-activity-feed .project-display, body#dashboard .dashboard-bottom-area #dash-project-list .project-display {
+      border-radius: 4px !important; }
+    body#dashboard .dashboard-bottom-area #dash-activity-feed .project-section, body#dashboard .dashboard-bottom-area #dash-project-list .project-section {
+      margin: 0 0 0 2px;
+      padding: 16px 10px 10px;
+      border-radius: 0px !important;
+      border-bottom: 1px dotted #ccc;
+      width: 95%; }
+      body#dashboard .dashboard-bottom-area #dash-activity-feed .project-section #proj-section-name, body#dashboard .dashboard-bottom-area #dash-project-list .project-section #proj-section-name {
+        max-width: 350px; }
+
+/* action buttons on dashboard */
+#dashboard-actions {
+  position: relative;
+  height: 38px;
+  background-color: #e5e5e5;
+  border-radius: 4px;
+  padding: 15px 0 5px 15px;
+  margin: 25px 0 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); }
+  #dashboard-actions #global-action-buttons {
+    position: relative; }
+    #dashboard-actions #global-action-buttons #create-project-btn {
+      margin-right: 12px;
+      width: 15%; }
+    #dashboard-actions #global-action-buttons .dropdown-toggle {
+      margin-right: 10px;
+      min-width: 10px !important; }
+    #dashboard-actions #global-action-buttons #publisher-dd {
+      min-width: 103px !important; }
+    #dashboard-actions #global-action-buttons .btn-group, #dashboard-actions #global-action-buttons .btn {
+      display: inline-block;
+      vertical-align: middle;
+      min-width: 103px; }
+    #dashboard-actions #global-action-buttons #publisher-btn .publisher-item {
+      margin: 2px 0; }
+      #dashboard-actions #global-action-buttons #publisher-btn .publisher-item img {
+        margin: 0 3px 0 0; }
+
+#search-area {
+  height: 45px;
+  padding: 0;
+  text-align: center;
+  width: 100%; }
+  #search-area input {
+    width: 295px;
+    height: 24px;
+    background-position: 310px 8px !important; }
+
+.user-lock {
+  margin: 20px 0 0 21px;
+  position: absolute;
+  background: url("/assets/icons/lock.png") center center no-repeat;
+  height: 16px;
+  width: 16px; }

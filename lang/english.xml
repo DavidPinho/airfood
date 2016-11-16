@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by Mario Augusto on December 28 of 2012
+-->
+<lang>
+<strings>
+    <titleCategory>Manage Categories</titleCategory>
+    <typeCategory>Categories</typeCategory>
+    <addCategory>New Category</addCategory>
+    <addItem>New Item</addItem>
+    <addUser>New User</addUser>
+    <titleToken>Manage Tokens</titleToken>
+    <typeToken>Tokens</typeToken>
+    <addToken>New Token</addToken>
+    <id>ID</id>
+    <name>Name</name>
+    <table>Table</table>
+    <token>Token</token>
+    <status>Status</status>
+    <generate>Generate</generate>
+    <attention>Attention</attention>
+    <success>Success</success>
+    <cancel>Cancel</cancel>
+    <save>Save</save>
+    <search>Search</search>
+    <continue>Continue</continue>
+    <quantity>Quantity</quantity>
+    <msg_addCategory>Type a name for category</msg_addCategory>
+    <msg_addToken>Identification of desk</msg_addToken>
+    <msg_attention>This operation is irreversible! Want to continue?</msg_attention>
+    <msg_erro_cat_delete>Not all categories were deleted. Check for any item registered in the category that was not deleted!</msg_erro_cat_delete>
+	<msg_succes_op>Operation performed successfully</msg_succes_op>
+	<food_description>Food description:</food_description>
+	<search_empty>Type something in the search field</search_empty>
+	<no_result>No results found</no_result>
+	<update_item>Update item</update_item>
+	<update_category>Update Category</update_category>
+	<navbar_home>Home</navbar_home>
+	<navbar_manager>Management</navbar_manager>
+	<navbar_user>User</navbar_user>
+	<navbar_token>Tokens</navbar_token>
+	<navbar_contact>Contact</navbar_contact>
+	<navbar_item>Items</navbar_item>
+	<navbar_categories>Categories</navbar_categories>
+	<edt_user>Update User</edt_user>
+	<title_contact>Contact</title_contact>
+	<title_item>Items</title_item>
+	<title_user>Usuários</title_user>
+	<message_contact1>For more information visit </message_contact1>
+	<message_contact2> or contact one of our administrators via email contato@fiveits.com.</message_contact2>
+	<all>All</all>
+	<order_closed>Closed</order_closed>
+	<order_pendent>Opened</order_pendent>
+</strings>
+</lang>

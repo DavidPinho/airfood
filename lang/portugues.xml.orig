@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by Mario Augusto on December 28 of 2012
+-->
+<lang>
+<strings>
+    <airfood_manager>Gerenciar Airfood</airfood_manager>
+    <airfood_logo>Logotipo do Airfood</airfood_logo>
+    <airfood_enter>Entrar no Airfood</airfood_enter>
+    <titleCategory>Gerenciar Categorias</titleCategory>
+    <recover_password>Recuperar Senha</recover_password>
+    <typeCategory>Categorias</typeCategory>
+    <addCategory>Nova Categoria</addCategory>
+    <addUser>Novo Usuário</addUser>
+    <addItem>Novo Item</addItem>
+    <titleToken>Gerenciar Tokens</titleToken>
+    <typeToken>Tokens</typeToken>
+    <addToken>Novo Token</addToken>
+    <titleorders>Gerenciar Pedidos</titleorders>
+    <typeorder>Pedidos</typeorder>
+    <id>ID</id>
+    <name>Nome</name>
+    <dashboard>Painel</dashboard>
+    <price>Preço</price>
+    <order>Pedido</order>
+    <table>Mesa</table>
+    <observation>Observação</observation>
+    <category>Categoria</category>
+    <product>Produto</product>
+    <token>Token</token>
+    <time>Hora</time>
+    <status>Status</status>
+    <request_date>Data do Pedido</request_date>
+    <generate>Gerar</generate>
+    <image>Imagem</image>
+    <remove>Remover</remove>
+    <generateToken>Gerar Token</generateToken>
+    <attention>Atenção</attention>
+    <msg_GenerateToken>Token gerado com sucesso</msg_GenerateToken>
+    <success>Sucesso</success>
+    <change>Alterar</change>
+    <description>Descrição</description>
+    <cancel>Cancelar</cancel>
+    <save>Salvar</save>
+    <enter>Entrar</enter>
+    <search>Buscar</search>
+    <continue>Continuar</continue>
+    <quantity>Quantidade</quantity>
+    <numberOfOrders>Qtd de Pedidos</numberOfOrders>
+    <timeOfOrder>Momento do Pedido</timeOfOrder>
+    <msg_wrongImgType>Formato de imagem não aceito!</msg_wrongImgType>
+    <msg_showPassword>Digite seu nome de usuário ou e-mail e sua senha será mostrada na tela.</msg_showPassword>
+    <msg_addCategory>Digite um nome para a categoria</msg_addCategory>
+    <msg_addSuccess>Adicionado com sucesso</msg_addSuccess>
+    <msg_addToken>Identificação da mesa</msg_addToken>
+    <msg_attention>Esta operação será irreversível! Deseja continuar?</msg_attention>
+	<msg_erro_cat_delete>Nem todos as categorias foram deletadas. Verifique se existe algum item cadastrado na categoria que não foi deletada!</msg_erro_cat_delete>
+	<msg_success_op>Operação efetuada com sucesso</msg_success_op>
+	<msg_delSuccess>Deletado com sucesso</msg_delSuccess>
+	<msg_deactivatedItem>Item já desativado, impossível deletar.</msg_deactivatedItem>
+<<<<<<< HEAD
+	<msg_activeItens>Mostrar somente itens ativos</msg_activeItens>
+=======
+>>>>>>> master
+	<food_description>Descrição do prato:</food_description>
+	<search_empty>Digite alguma coisa no campo de pesquisa</search_empty>
+	<no_result>Nenhum resultado encontrado</no_result>
+	<forgot_password>Esqueceu sua senha?</forgot_password>
+	<username_email>Nome do usuário ou email:</username_email>
+	<all>Todos</all>
+	<set_token>Inserir Token</set_token>
+	<insert_toke_here>Digite o token aqui</insert_toke_here>
+	<use>Usar</use>
+	<token_unavailable>Token indisponível</token_unavailable>
+	<token_available>Autenticação efetuada com sucesso!</token_available>
+	<comment>Comentário</comment>
+	<comment_placeholder>Digite caso queira personalizar o pedido</comment_placeholder>
+	<order>Pedir</order>
+	<email>Email</email>
+	
+	<!-- modal de novo usuario -->
+	<nameOfTheUser>Digite o nome</nameOfTheUser>
+	<user_email>Digite o Email</user_email>
+	<user_userName>Digite um nome de usuário</user_userName>
+	<user_password>Digite uma senha</user_password>
+	<user_confirmPass>Confirme a senha</user_confirmPass>
+	
+	<username>Nome de Usuário</username>
+	<recover>Recuperar</recover>
+	<total>Total:</total>
+	<qtd>Qtd.:</qtd>
+	<password>Senha</password>
+	<confirm_password>Confirmar Senha</confirm_password>
+	<confirm>Confirmar</confirm>
+	<order_details>Detalhes do Pedido</order_details>
+	<token_invalid>Você precisa informar um token válido antes de fazer o pedido. Caso não possua, chame um funcionário do estabelecimento</token_invalid>
+	<success_on_order>Pedido efetuado com sucesso</success_on_order>
+	<select_image>Selecionar imagem</select_image>
+	<error_on_order>Desculpe, mas o pedido não pode ser efetuado</error_on_order>
+	<ok>Ok</ok>
+	<my_bill>Minha conta</my_bill>
+	<product_name>Nome do Produto</product_name>
+	<no_token>Você ainda não possui um token para acompanhar/fazer pedidos. Entre em contato com o garço para conseguir um token de acesso</no_token>
+	<close_bill>Fechar conta</close_bill>
+	<order_confirmed>Selecione para marcar que os pedidos já atendidos</order_confirmed>
+	<table_unavailable>Esta mesa não está disponível no momento</table_unavailable>
+	<edt_user>Editar Usuário</edt_user>
+	<msg_itemName>Adicione um nome</msg_itemName>
+	<msg_itemPrice>Adicione um preço</msg_itemPrice>
+	<msg_itemQtd>Adicione uma quantidade</msg_itemQtd>
+	<msg_itemDesc>Adicione uma descrição</msg_itemDesc>
+	<navbar_home>Home</navbar_home>
+	<navbar_manager>Gerenciamento</navbar_manager>
+	<navbar_user>Usuário</navbar_user>
+	<navbar_token>Tokens</navbar_token>
+	<navbar_item>Itens</navbar_item>
+	<navbar_categories>Categorias</navbar_categories>
+	<navbar_contact>Contato</navbar_contact>
+	<update_category>Atualiza Categoria</update_category>
+	<update_item>Atualiza Item</update_item>
+	<title_contact>Contato</title_contact>
+	<active_desk>Mesas Ativa</active_desk>
+	<update>Atualizar</update>
+	<title_item>Itens</title_item>
+	<title_user>Usuários</title_user>
+	<message_contact1>Para maiores informações acesse o site </message_contact1>
+	<message_contact2> ou entre em contato com um de nossos administradores através do email contato@fiveits.com.</message_contact2>
+	<empty_name>Digite um nome</empty_name>
+	<empty_desc>Digite uma descrição</empty_desc>
+	<empty_qtd>Digite uma quantidade</empty_qtd>
+	<empty_price>Digite um preço</empty_price>
+	<empty_price_invalid>Digite um valor numérico</empty_price_invalid>
+	<empty_categories>Selecione uma categoria</empty_categories>
+	<empty_table>Digite uma mesa</empty_table>
+	<unavailable_table>Mesa já ocupada</unavailable_table>
+	<duplicated_item>Este item já existe</duplicated_item>
+	<token_active>Ativado</token_active>
+	<token_deactive>Desativado</token_deactive>
+	<is_admin>Administrador</is_admin>
+	<msg_succes_op>Operação efetuada com sucesso!</msg_succes_op>
+	<order_closed>Concluído</order_closed>
+	<order_pendent>Pendente</order_pendent>
+</strings>
+</lang>

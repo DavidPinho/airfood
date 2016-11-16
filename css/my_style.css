@@ -1,0 +1,33 @@
+.top-table {
+	background-color: #7cb5e6;
+	color: rgb(34, 129, 207);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 0px 0px rgb(0, 0, 0)
+		inset;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(130, 207, 250) rgb(231, 242, 251) rgb(150, 196, 234);
+	background: rgb(240, 249, 255);
+}
+
+#rounded {
+	position: fixed;
+	width: 260px;
+	left: 15px;
+	right: 10px;
+	border: 1px solid #e3e3e3;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	padding: 10px;
+}
+
+.toggle-row:hover{
+	background-color: #afd2f1;
+}
+.toggle-row-selected{
+	background-color: #4385bd;
+	color: #ffffff;
+}

@@ -1,0 +1,183 @@
+.btn-container {
+  display: inline-block;
+  width: 100%;
+  margin: 10px 0 0; }
+
+.actions-widget {
+  height: 35px;
+  font-weight: normal; }
+  .actions-widget .disabled-link {
+    opacity: .7; }
+    .actions-widget .disabled-link:hover {
+      color: #666 !important; }
+  .actions-widget form.search {
+    margin: 0;
+    float: left; }
+  .actions-widget img {
+    vertical-align: middle;
+    margin-top: -4px; }
+  .actions-widget a.btn {
+    margin-right: 6px !important; }
+  .actions-widget a:first-child {
+    margin-left: 0px; }
+
+ul.actions {
+  display: inline-block;
+  list-style: none outside none;
+  padding: 0;
+  text-align: right;
+  width: 100%; }
+  ul.actions li {
+    display: inline;
+    margin: 0px 0px 0px 10px; }
+
+.actions:first-child {
+  margin-right: 0px; }
+
+.actions {
+  color: #666666;
+  display: inline-block;
+  float: right;
+  font-size: 13px;
+  font-weight: normal;
+  height: 16px;
+  line-height: 17px;
+  margin: 16px 15px 0 0;
+  padding-left: 20px; }
+  .actions:hover {
+    color: #333;
+    text-decoration: none; }
+
+.edit-link {
+  background: url("/assets/icons/page_white_edit.png") left center no-repeat; }
+
+.edit-multi-link {
+  background: url("/assets/icons/pencil-multi.png") left center no-repeat; }
+
+.new-link {
+  background: url("/assets/icons/add.png") left center no-repeat; }
+
+.clone-link {
+  background: url("/assets/icons/layers.png") left center no-repeat; }
+
+.magnify-link {
+  background: url("/assets/icons/magnifier.png") left center no-repeat; }
+
+.invite-link {
+  background: url("/assets/icons/email.png") left center no-repeat; }
+
+.create-user-link {
+  background: url("/assets/icons/user-add.png") left center no-repeat; }
+
+.create-project-link {
+  background: url("/assets/icons/folder.png") left center no-repeat; }
+
+.create-role-link {
+  background: url("/assets/icons/vcard_add.png") left center no-repeat; }
+
+.assign-link {
+  background: url("/assets/icons/vcard.png") left center no-repeat; }
+
+.group-add-link {
+  background: url("/assets/icons/group-add.png") left center no-repeat; }
+
+.select-projects-link {
+  background: url("/assets/icons/folder.png") left center no-repeat; }
+
+.add-service-link {
+  background: url("/assets/icons/application_put.png") left center no-repeat; }
+
+.enable-link {
+  background: url("/assets/icons/lock_unlock.png") left center no-repeat; }
+
+.disable-link {
+  background: url("/assets/icons/lock.png") left center no-repeat; }
+
+.delete-link {
+  background: url("/assets/icons/delete.png") left center no-repeat;
+  margin-right: 0px; }
+
+.browse-link {
+  background: url("/assets/icons/eye.png") left center no-repeat; }
+
+.open-link {
+  background: url("/assets/icons/application_get.png") left center no-repeat; }
+
+.backup-link {
+  background: url("/assets/icons/databases.png") left center no-repeat; }
+
+.package-link {
+  background: url("/assets/icons/package.png") left center no-repeat; }
+
+.world-link {
+  background: url("/assets/icons/world.png") left center no-repeat; }
+
+.key-link {
+  background: url("/assets/icons/key.png") left center no-repeat; }
+
+.selected-link {
+  background: url("/assets/icons/selection_select.png") left center no-repeat; }
+
+.unselected-link {
+  background: url("/assets/icons/selection.png") left center no-repeat; }
+
+.show-all-link {
+  background: url("/assets/icons/select_both.png") left center no-repeat; }
+
+.generate-password-link {
+  background: url("/assets/icons/safe.png") left center no-repeat; }
+
+.dropdown-menu .actions {
+  padding-left: 30px;
+  float: none;
+  margin: 0px !important;
+  background-position: 10px center; }
+
+h1 .blue-header, h1 .search, h1 .edit_user, h1 .backups-link {
+  font-size: 13px;
+  font-weight: normal; }
+h1 .action-button {
+  float: right;
+  margin-right: 0px; }
+
+h2, h3 {
+  /* reset , margins and padding */
+  padding: 0;
+  margin: 0;
+  position: relative; }
+  h2 .actions, h3 .actions {
+    float: right;
+    margin-top: 5px; }
+
+.project-detail-title ul.actions {
+  top: 3px; }
+
+#multiple-users .enable-link {
+  background: url("/assets/icons/lock_unlock.png") left center no-repeat;
+  margin-right: 166px; }
+#multiple-users .disable-link {
+  background: url("/assets/icons/lock.png") left center no-repeat;
+  margin-right: 80px; }
+#multiple-users .delete-link {
+  background: url("/assets/icons/delete.png") left center no-repeat;
+  margin-right: 0px; }
+#multiple-users .actions {
+  background-color: #F5F5F5;
+  background-position: 4px center;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px 4px 4px 4px;
+  color: #333333;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  margin-top: -33px;
+  padding-left: 25px !important;
+  text-shadow: none !important; }
+#multiple-users .actions:hover {
+  background-color: #e6e6e6; }
+#multiple-users .actions-widget {
+  height: 10px; }
+
+.publisher-actions a, .publisher-actions a:hover {
+  color: #333; }
